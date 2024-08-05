@@ -78,13 +78,13 @@ const Cards = ({ item }) => {
       >
         <FaHeart className="w-5 h-5 cursor-pointer" />
       </div>
-      <Link to={`/menu/${item._id}`}>
+      <Link >
         <figure>
           <img src={item.image} alt="Foods" className="hover:scale-105 transition-all duration-300 h-40 sm:h-50 md:h-60" />
         </figure>
       </Link>
       <div className="card-body">
-       <Link to={`/menu/${item._id}`}><h2 className="card-title">{item.name}!</h2></Link>
+       <Link ><h2 className="card-title">{item.name}!</h2></Link>
         <p>Description of the item</p>
         <div className="card-actions justify-between items-center mt-2">
           <h5 className="font-semibold">
