@@ -37,15 +37,9 @@ const Navbar = () => {
         </a>
       </li>
       <li tabIndex={0}>
-        <details>
-          <summary>Menu</summary>
-          <ul className="p-2">
-            <li>
-              <a href="/menu">All</a>
-            </li>
-            
-          </ul>
-        </details>
+        
+        <a href="/menu">Menu</a>
+     
       </li>
       <li tabIndex={0}>
         <details>
