@@ -146,7 +146,7 @@ const Modal = () => {
               </Link>
             </p>
           </form>
-          <div className="text-center w-[100%] space-x-3 mb-5">
+          {/* <div className="text-center w-[100%] space-x-3 mb-5">
             <button
               onClick={handleRegister}
               className=" w-full  py-[10px] rounded-lg flex flex-row gap-4 items-center  justify-center hover:bg-green hover:text-white"
@@ -155,7 +155,7 @@ const Modal = () => {
               <p>Sign in using Google</p>
             </button>
             
-          </div>
+          </div> */}
         </div>
       </div>
     </dialog>
