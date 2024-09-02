@@ -37,8 +37,8 @@ const Navbar = () => {
         </a>
       </li>
       <li tabIndex={0}>
-        
-        <a href="/menu">Menu</a>
+      <Link to="/menu">Menu</Link>
+        {/* <a href="/menu"></a> */}
      
       </li>
       <li tabIndex={0}>
@@ -58,7 +58,8 @@ const Navbar = () => {
         </details>
       </li>
       <li>
-        <a>Offers</a>
+      <Link >Offers</Link>
+
       </li>
     </>
   );
